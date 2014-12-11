@@ -17,7 +17,7 @@
 -(IBAction)PushQuestion:(id)sender{
     
     a = arc4random() %2;
-    YouKnow.hidden = Yes;
+    YouKnow.hidden = true;
     if (a % 2 == 0) {
         
         YesCount = YesCount + 1;

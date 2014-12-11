@@ -14,10 +14,25 @@
 
 @implementation CallMeMaybe
 
+- (IBAction)callPhonIvana:(id)sender {
+     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:00381638502364"]];
+}
+- (IBAction)callLena:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:00381641518724"]];
+}
+
+- (IBAction)callSonja:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:00381631081098"]];
+}
+
+- (IBAction)callPhoneJelena:(id)sender {
+     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:00381629755912"]];
+}
 
 -(IBAction)callPhoneTata:(id)sender{
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:00381628862200"]];
 }
+
 
 -(IBAction)callPhoneMama:(id)sender{
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:0038163504368"]];
